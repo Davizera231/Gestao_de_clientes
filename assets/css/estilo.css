@@ -27,7 +27,7 @@ body{
     align-items: center; 
     padding: 10px; 
     z-index: 1;
-    box-shadow: 0px 0px 0px 5px #000000;
+    box-shadow: 4px 6px 37px 3px rgba(163, 146, 146, 0.74);
 
 } 
 
@@ -50,6 +50,17 @@ body{
     padding: 20px;
 }
 
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y:scroll;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 4px 6px 37px 3px rgba(0,0,0,0.74);
+
+}
+
+
 .rodape {
     grid-area: rodape;
     background-color: #fff;
@@ -63,3 +74,59 @@ body{
     color: rgb(0, 0, 0);
 }
 
+.modulos {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+
+} 
+
+.modulo {
+    flex-basis: 25%; 
+    border-radius: 5px;
+
+} 
+
+.modulo > h3 {
+    display: flex;
+    margin: 0px;
+    color: #fff;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 3px 2px 10px;
+    background-color: blue;
+} 
+
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+} 
+
+.modulo > ul > li {
+    padding: 7px;
+    font-size:1.1rem;
+    cursor: pointer;
+} 
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none; 
+    color: #222;
+}
+
+.modulo > ul > li:hover {
+    background-color: #5f5f5f;
+} 
+
+.modulo.ciano {border: 2px solid #1bb6a9;}
+.modulo.ciano > h3{background-color: #1bb6a9;} 
+
+
+.modulo.verde_musgo {border: 2px solid #5cee08;}
+.modulo.verde_musgo > h3{background-color: #5cee08;}
+
+
+.modulo.cinza {border: 2px solid #5f5f5f;}
+.modulo.cinza > h3{background-color: #5f5f5f;}
