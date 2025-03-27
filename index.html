@@ -1,54 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets\css\estilo.css"> 
-    <title>Curso PHP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Gestão de Clientes</title>
 </head>
 <body> 
     <header class="cabecalho">
-        <h1>Site PHP</h1> 
-        <h2>Indice dos exercicios</h2>
+        <div class="container">            
+              <h1>Gestão de Clientes</h1><br>
+            <nav>
+                <ul>
+                    <li><a href="#">Cadastrar Cliente</a></li>
+                    <li><a href="#">Listar Clientes</a></li>
+                    <li><a href="#">Editar Cliente</a></li>
+                    <li><a href="#">Excluir Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="principal">
-        <div class = "conteudo">
-            <nav class="modulos">
-                <div class="modulo ciano">
-                    <h3>Módulo 01 - Básico</h3>
-                    <ul>
-                        <li><a href="#">Basic-1</a></li>
-                        <li><a href="#">Basic-2</a></li>
-                        <li><a href="#">Basic-3</a></li>
-                        <li><a href="#">Basic-4</a></li>
-                    </ul>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4"> 
+
+                <div class="slide firts">
+                    <img src="https://i.im.ge/2025/03/27/p0I1Hf.Inserir-um-titulo.png" alt="Imagem 1" />
                 </div>
-                <div class="modulo verde_musgo">
-                    <h3>Módulo 02 - Intermédiario</h3>
-                    <ul>
-                        <li><a href="#">Intermédiario-1</a></li>
-                        <li><a href="#">Intermédiario-2</a></li>
-                        <li><a href="#">Intermédiario-3</a></li>
-                        <li><a href="#">Intermédiario-4</a></li>
-                    </ul>
+                <div class="slide">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftargo.com.br%2Ftipos-de-sistemas-de-gestao-do-cliente%2F&psig=AOvVaw3NGv-FsnvI67DyIlSJGNmZ&ust=1743132561680000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCGlIqpqYwDFQAAAAAdAAAAABAE" alt="Imagem 2" />
                 </div>
-                <div class="modulo cinza">
-                    <h3>Módulo 03 - Avançado</h3>
-                    <ul>
-                        <li><a href="#">Avançado-1</a></li>
-                        <li><a href="#">Avançado-2</a></li>
-                        <li><a href="#">Avançado-3</a></li>
-                        <li><a href="#">Avançado-4</a></li>
-                    </ul>
-                </div>    
-            </nav>
+                <div class="slide">
+                    <img src="" alt="Imagem 3" />
+                </div> 
+                <div class="slide">
+                    <img src="" alt="Imagem 4" />
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                
+            </div>
+            
+
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div> 
+            
+            
+
+
         </div>
     </main>
     <footer class="rodape">
-        TXR ENGENHARIA &#169 2025
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
